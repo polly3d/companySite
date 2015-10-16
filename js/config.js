@@ -1,0 +1,1 @@
+if(window.location.href.indexOf("greenbodhi.com") != -1){document.domain = "greenbodhi.com";}var DTPath = "http://www.greenbodhi.com/";var SKPath = "http://www.greenbodhi.com/skin/default/";var MEPath = "http://www.greenbodhi.com/member/";var EXPath = "http://www.greenbodhi.com/extend/";var CKDomain = ".greenbodhi.com";var CKPath = "/";var CKPrex = "Dej_";

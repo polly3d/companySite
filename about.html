@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>装修公司网站设计</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+    <script src="/js/css3-mediaqueries.js"></script>
+    <script src="/js/html5_tag.js"></script>
+    <![endif]-->
+    <SCRIPT src="js/jquery-1.4.2.min.js" type="text/javascript"></SCRIPT>
+    <SCRIPT src="js/common.js" type="text/javascript"></SCRIPT>
+    <script type="text/javascript" src="js/config.js"></script>
+    <!--[if lte IE 6]><SCRIPT src="/js/iepng.js" type="text/javascript"></SCRIPT>
+    <script> 
+    EvPNG.fix('div, ul, img, li, input,a,span,nav,article'); 
+    </script><![endif]-->
+    <script type="text/javascript" src="js/jquery.lazyload.js"></script>
+</head>
+<body class="indexBody">
+    <!-- 网页头部 -->
+    <header class="headerTop" id="headerTop">
+        <div class="wrap">
+            <h1><span class="cm_ico2"></span>全国统一24小时服务热线：<strong class="pchtel">010-123456789</strong><a class="mobilehtel" href="/contact/">010-123456789</a></h1>
+            <menu>
+                <ul>
+                    <li>
+                        <span class="text">在线沟通: </span><a href="http://wpa.qq.com/msgrd?v=3&uin=12345678&site=qq&menu=yes" class="qq cm_ico" title="通过QQ与正邦客服进行沟通" target="_blank"></a>
+                        <span class="sline cm_ico"></span><a href="#" class="msg cm_ico" title="在线与正邦
+                        客服进行沟通" target="_blank"></a></li><li class="line"></li>
+                    <li class="none_720"><a href="about.html" target="_blank" title="关于我们">关于我们</a></li>
+                    <li class="line none_720"></li>
+                    <li  class="none_720"><a href="knowledge.html" target="_blank" title="装修常识">装修常识</a></li>
+                    <li class="line none_720"></li>
+                    <li  class="none_720"><a href="contact.html" target="_blank" title="联系我们">联系我们</a></li>
+                    <li class="line none_720"></li>
+                    <li  class="none_720"><a href="#" title="装饰公司网站模板"><span class="icon_jia cm_ico"></span>装饰公司网站模板</a></li>
+                    <div class="cls"></div>
+                </ul>
+            </menu>
+        </div>
+    </header>
+    <!-- 网页导航 -->
+    <nav class="nav">
+        <div class="nav_bg">
+            <div class="wrap">
+                <div class="mobile_nav_wrap">
+                    <a href="#" title="网站标题" class="logo"><img src="images/logo.jpg" alt="网站标题"/></a><span class="ThiscurCity" id="ThiscurCity" onclick="showAllCopn()"></span><div class="w1024_search" onClick="show_search()"></div>
+                    <div class="menu_moblie_icon" onClick="show_moblie_menu()"></div>
+                    <div class="search_moblie_icon" onClick="show_search()"></div>
+                    <div class="search">
+                        <form  name="formsearch" action="#">
+                            <input type="text" class="searchPut" id="searchPut" name="q" >
+                            <input type="submit" class="cm_ico searchBtn" value=" " id="searchBtn" onClick="if(document.getElementById('searchPut').value=='') {alert ('关键词不能为空'); return false;}location.href='{dede:global.cfg_cmsurl/}/plus/search.php'+escape(document.getElementById('searchPut').value);">
+                        </form>
+                    </div>
+                </div>
+                <ul class="navlist" id="navlist">
+                    <li class="current">
+                        <a href="index.html" title="网站标题">网站首页<span>Home</span></a>
+                    </li>
+                    <li >
+                        <a href="about.html" target="_blank" title="关于我们">关于我们<span>About</span></a>
+                        <menu id="aboutNavMenu">
+                            <a href="#"  title="公司简介" class="AboutNavMenu6">公司简介</a>
+                            <a href="#"  title="企业文化" class="AboutNavMenu6">企业文化</a>
+                        </menu>
+                    </li>
+                    <li >
+                        <a href="case.html" target="_blank" title="成功案例">成功案例<span>Case</span></a>
+                        <menu>
+                            <a href="#"  title="别墅" class="AboutNavMenu6">别墅</a>
+                            <a href="#"  title="办公空间" class="AboutNavMenu6">办公空间</a>
+                        </menu>
+                    </li>
+                    <li >
+                        <a href="news.html" target="_blank" title="新闻资讯">新闻资讯<span>News</span></a>
+                        <menu>
+                            <a href="#"  title="公司动态" class="AboutNavMenu6">公司动态</a>
+                            <a href="#"  title="行业资讯" class="AboutNavMenu6">行业资讯</a>
+                        </menu>
+                    </li>
+                    <li >
+                        <a href="knowledge.html" target="_blank" title="装修知识">装修知识<span>Knowledge</span></a>
+                    </li>
+                    <li class="no_bor ">
+                        <a href="contact.html" target="_blank" title="联系我们">联系我们<span>Contact</span></a>
+                    </li>
+                    <div class="cls"></div>
+                </ul>                      
+                <div class="cls"></div>    
+            </div>
+        </div>
+    </nav>
+    <script type="text/javascript">var module_id= 3,item_id=6,content_id='content';</script>
+    <section class="mcur">
+        <div class="wrap">
+            <h1>关于我们<span>AboutUs</span></h1>
+            <h2>
+            <span></span>当前位置:<a href='http://127.0.0.1/'>主页</a> > <a href='/about/'>关于我们</a> > </a>
+            </h2>
+        </div>
+    </section>
+    <menu class="PageMenuList">
+        <div class="wrap">
+            <ul id="PagemenuClass">   
+                <li class=""><a href='/about/profile/'>公司简介</a></li>
+                <li class=""><a href='/about/culture/'>企业文化</a></li>
+                <div class="cls"></div>                                            
+            </ul>
+        </div>
+    </menu>
+    <div class="wrap">
+        <div class="content">
+            <div class="about_index_1"><img style="padding-bottom: 50px; padding-right: 42px" class="f_l about_index_img" alt="正邦装饰" src="images/04-27-47-98-1.jpg" /></div>
+            <div class="about_index_1">
+                <h1 style="padding-bottom: 10px" class="n_top">关于我们</h1>
+                净远含义 &quot;绿&quot;健康空间的新标准、&quot;菩提&quot;一词是梵文Bodhi的音译，意为觉悟、智慧，指人宽宏大量，明辨善恶，顿悟真理之意，达到超凡脱俗的境界，蕴藏着深厚的精神文化。<br />
+                <br />
+                菩提树的精神：平凡而又常青，光明而又博爱。<br />
+                <br />
+                LOGO含义 采用绿色的&quot;圆&quot;代表&quot;净远 装饰&quot;致力打造绿色的地球环境，用我们的爱心去感动更多的人去爱护大自然，保护环境。代表着净远 人共同的社会责任，协手打造一个绿色的、健康的居住和工作环境。<br />
+                <br />
+                更多精品织梦源码参见（ke01.com）
+
+                <div class="about_index_Conlist">
+                    <ul>
+                        <li class="li_l"><span class="about_icon_01">&nbsp; </span>
+                        <h3>给我们打电话</h3>
+                        7*24小时服务热线：010-123456789</li>
+                        <li class="li_c"><span class="about_icon_01 about_icon_02">&nbsp; </span>
+                        <h3>在地图上找到我们</h3>
+                        广东省北京市南山区</li>
+                        <li class="li_r"><span class="about_icon_01 about_icon_03">&nbsp; </span>
+                        <h3>给我们发邮件</h3>
+                        E-mail:9490489@qq.com</li>
+                    </ul>
+                </div>
+            </div>            
+            <div class="cls"></div>
+        </div>
+    </div>
+    <section class="webSiteMap" id="webSiteMap">
+        <div class="wrap">
+            <a href="javascript:" class="showMap" onClick="showMap()" title="网站地图">网站地图 <span class="cm_ico"></span></a>
+            <div class="cls"></div>
+            <dl class="webSiteMap_list">
+                <dt><a href="http://127.0.0.1" title="绿色大气装饰网站 - AB模板网：源码、模板、插件下载基地 - Www.AdminBuy.Cn">网站首页</a></dt>
+            </dl>
+            <dl class="webSiteMap_list webSiteMap_list2">
+                <dt><a href="/about/profile/" target="_blank" title="关于我们">关于我们</a></dt>
+                <dd>
+                    <a href="/about/profile/"  title=" 公司简介">公司简介</a>
+                    <a href="/about/culture/"  title=" 企业文化">企业文化</a>
+                </dd>
+            </dl>
+            <dl class="webSiteMap_list">
+                <dt><a href="/case/" target="_blank" title="成功案例">成功案例</a></dt>
+                <dd>
+                    <a href="/case/bieshu/"  title=" 别墅">别墅</a>
+                    <a href="/case/office/"  title=" 办公空间">办公空间</a>
+                </dd>
+            </dl>
+            <dl class="webSiteMap_list">
+                <dt><a href="/news/" target="_blank" title="新闻资讯">新闻资讯</a></dt>
+                <dd>
+                    <a href="/news/company_news/"  title=" 公司动态">公司动态</a>
+                    <a href="/news/industry_news/"  title=" 行业资讯">行业资讯</a>
+                </dd>
+            </dl>
+            <dl class="webSiteMap_list">
+                <dt><a href="/knowledge/" target="_blank" title="装修知识">装修知识</a></dt>
+                <dd>
+                </dd>
+            </dl>
+            <dl class="webSiteMap_list">
+                <dt><a href="/contact/" target="_blank" title="联系我们">联系我们</a></dt>
+            </dl>
+            <dl class="webSiteMap_list webSiteMap_list_last">
+                <dt><a href="javascript:">其他</a></dt>
+                <dd>
+                </dd>
+            </dl>
+            <div class="cls"></div>
+        </div>
+    </section>
+    <footer> 
+        <div class="wrap"> 
+            <section class="footBlock"> 
+                <div class="title"> 
+                <h1><strong>快捷导航</strong><span>Menu</span></h1> 
+                <span class="border"></span> 
+            </div> 
+            <ul class="footmenuList"> 
+                <li><a href="http://127.0.0.1" title="绿色大气装饰网站 - AB模板网：源码、模板、插件下载基地 - Www.AdminBuy.Cn"><span></span>网站首页</a></li> 
+                <li><a href="/about/" title="关于我们"><span></span>关于我们</a> </li> 
+                <li><a href="/case/" title="成功案例"><span></span>成功案例</a> </li> 
+                <li><a href="/news/" title="新闻资讯"><span></span>新闻资讯</a> </li> 
+                <li><a href="/knowledge/" title="装修常识"><span></span>装修常识</a> </li> 
+                <li><a href="/contact/" title="联系我们"><span></span>联系我们</a> </li> 
+                <li><a href="/kehu/" title="代表客户"><span></span>代表客户</a> </li> 
+            </ul> 
+            </section> 
+            <section class="footBlock"> 
+                <div class="title"> 
+                    <h1><a href="/news/company_news/" target="_blank" title="公司动态"><strong>公司动态</strong><span>Company News</span></a></h1> 
+                    <div class="cls"></div> 
+                    <span class="border"></span> 
+                </div> 
+                <ul class="footnewsList"> 
+                    <li><span>[10-13]</span> &nbsp;<a href="/news/company_news/27.html" title="经济和投资的不断下行进一步">经济和投资的不断下行进一步</a></li> 
+                    <li><span>[10-13]</span> &nbsp;<a href="/news/company_news/26.html" title="龙头装饰企业发展到今天">龙头装饰企业发展到今天</a></li> 
+                    <li><span>[10-13]</span> &nbsp;<a href="/news/company_news/25.html" title="下游材料企业也同样如此">下游材料企业也同样如此</a></li> 
+                    <li><span>[10-13]</span> &nbsp;<a href="/news/company_news/24.html" title="装饰行业的市场化竞争更强一些">装饰行业的市场化竞争更强一些</a></li> 
+                    <li><span>[10-13]</span> &nbsp;<a href="/news/company_news/23.html" title="相较于其他专业分包行业">相较于其他专业分包行业</a></li> 
+                </ul> 
+            </section> 
+            <section class="footBlock footBlockThird"> 
+                <div class="title"> 
+                    <h1><a href="/news/industry_news/" target="_blank" title="行业资讯"><strong>行业资讯</strong><span>Industry News</span></a></h1> 
+                    <div class="cls"></div> 
+                    <span class="border"></span> 
+                </div> 
+                <ul class="footnewsList"> 
+                    <li><span>[10-13]</span> &nbsp;<a href="/news/industry_news/34.html" title="金额未呈现出太多明显特征">金额未呈现出太多明显特征</a></li> 
+                    <li><span>[10-13]</span> &nbsp;<a href="/news/industry_news/33.html" title="装饰企业上半年经营性现金流量">装饰企业上半年经营性现金流量</a></li> 
+                    <li><span>[10-13]</span> &nbsp;<a href="/news/industry_news/32.html" title="说明其主动把部分资金压力向供应商转移">说明其主动把部分资金压力向供应商转移</a></li> 
+                    <li><span>[10-13]</span> &nbsp;<a href="/news/industry_news/3.html" title="留住蓝色地球美丽中国低碳行">留住蓝色地球美丽中国低碳行</a></li> 
+                    <li><span>[11-21]</span> &nbsp;<a href="/news/industry_news/6.html" title="装修设计首捧嵌入式家具">装修设计首捧嵌入式家具</a></li> 
+                </ul> 
+            </section> 
+            <section class="footBlock footBlockLast" style="margin-right:0px; width:298px"> 
+                <div class="title"> 
+                    <h1><a href="/knowledge/" target="_blank" title="装修常识"><strong>装修常识</strong><span>Common Sense</span></a></h1> 
+                    <span class="border"></span> 
+                </div> 
+                <ul class="footnewsList footnewsAddList"> 
+                    <li><span class="f_r">[10-13]</span><a href="/knowledge/31.html" title="在收现比下降的同时，装饰企业的付现比也有所下降">在收现比下降的同时，装饰企业的付现比也</a></li> 
+                    <li><span class="f_r">[10-13]</span><a href="/knowledge/18.html" title="点使得上半年大部分装饰企业的收现比">点使得上半年大部分装饰企业的收现比</a></li> 
+                    <li><span class="f_r">[10-13]</span><a href="/knowledge/30.html" title="为了达到快速增长目的可能会部分放宽收款时限">为了达到快速增长目的可能会部分放宽收款</a></li> 
+                    <li><span class="f_r">[10-13]</span><a href="/knowledge/29.html" title="在上市后利用资金优势进行扩张">在上市后利用资金优势进行扩张</a></li> 
+                    <li><span class="f_r">[10-13]</span><a href="/knowledge/28.html" title="增速下行使得行业资金链条偏紧;装饰企业">增速下行使得行业资金链条偏紧;装饰企业</a></li> 
+                </ul> 
+            </section> 
+            <div class="cls"></div> 
+            <section class="footlc"> 
+                <h1> <span class="cm_ico"></span>服务流程<span class="zi">Services</span> </h1> 
+                <p class="p1"><span class="cm_ico">1</span>010-123456789<br />装修咨询</p> 
+                <p class="p2"><span class="cm_ico">2</span>约见设计师<br />上门洽谈设计方案</p> 
+                <p class="p3"><span class="cm_ico">3</span>确认方案<br />并签署装修设计合同</p> 
+                <p class="p4"><span class="cm_ico">4</span>工程项目<br />立项进场施工</p> 
+                <p class="p5"><span class="cm_ico">5</span>严格把控质量，<br />满意竣工验收</p> 
+                <p class="p6"><span class="cm_ico">6</span>正邦为您<br />提供终身VIP售后服务</p> 
+                <div class="cls"></div> 
+                <span class="borderTop"></span> 
+                <span class="borderBtn"></span> 
+            </section> 
+            <section class="footerBotton"> 
+                <p class="copyright about_index_img">Copyright &copy; 2013-2014 AdminBuy AB模板网 技术支持：<a href="http://www.adminbuy.cn/" target="_blank">AB模板网</a><span class="none_720"> <a href="http://www.miibeian.gov.cn/" title="网站备案号" target="_blank">京XXXX1234567890</a></span></p> 
+                <menu> 
+                    <a href="/about/profile/" target="_blank" title="关于我们" rel="nofollow">关于我们 </a>
+                    <span class="line"></span> 
+                    <a href="javascript:" onclick="showOA('建议反馈','客服')" title="建议反馈" rel="nofollow">建议反馈</a> 
+                    <span class="line"></span> 
+                    <a href="/contact/" target="_blank" title="联系我们" rel="nofollow">联系我们</a> 
+                    <span class="line"></span> 
+                    <a href="javascript:" onclick="addfavorite()" title="收藏正邦装饰到收藏夹" rel="nofollow">收藏本站</a>
+                    <span class="line"></span> 
+                    <a href="javascript:" onclick="showFlink()" title="友情链接" rel="nofollow">友情连接</a> 
+                    <a href="http://weibo.com/gooxao" class="footersina" target="_blank" title="装饰新浪官方微博" rel="nofollow"></a> 
+                    <a href="http://t.qq.com/gooxao" class="footerteng" target="_blank" title="装饰腾讯官方微博" rel="nofollow"></a> 
+                    <div class="cls"></div> 
+                </menu> 
+                <div class="cls"></div> 
+                <h1 class="mobilefootText"><span class="cm_ico"></span>正邦7*24小时服务热线：<a href="tel://010-123456789/">010-123456789</a></h1> 
+                <a href="#" class="goTop cm_ico"></a> 
+            </section> 
+        </div> 
+        <section class="friendLink" id="friendLink"> 
+            <div class="wrap"> 
+                <a href="http://www.yiquantou.com" target="_blank" title="飘花电影网"> 飘花电影网</a>
+                <a href="http://www.henhaixiu.com" target="_blank" title="多玩图库"> 多玩图库</a>
+                <a href="http://www.hutui6.com" target="_blank" title="微信互推"> 微信互推</a>
+                <a href="http://www.adminbuy.cn" target="_blank" title="织梦模板"> 织梦模板</a> 
+            </div> 
+        </section> 
+    </footer> 
+
+    <script type="text/javascript">
+    var city_cookie = get_cookie('city').replace('|','');
+    if(city_cookie!=0){
+    GetAboutMenu(city_cookie,"公司简介");
+    }
+
+    var classmemu = "AboutNavMenu6";
+    newsIndexPage = true;
+    var pmenuid = 0;
+    $(document).ready(function(){
+    LoadPageSize();
+    $("img").lazyload();
+    $('#aboutNavMenu').find('.'+classmemu).addClass('b');
+    $('#PagemenuClass a').each(function(){
+    if($(this).attr('value')==pmenuid){
+    $(this).parent('li').addClass('hover'); return 0;
+    }
+    })
+    })
+    $('.icon_js_c').click(function(){
+    $(this).addClass('icon_js_c_hover').siblings('.icon_js_c').removeClass('icon_js_c_hover');
+    switch($(this).index()){
+    case 0:$('#content').css('font-size','16px');break;
+    case 1:$('#content').css('font-size','14px');break;
+    case 2:$('#content').css('font-size','12px');break;
+    }
+    })
+</script>
+</body>
+</html>
